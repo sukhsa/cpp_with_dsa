@@ -1,0 +1,587 @@
+
+//Q.1 Write a program that prints "Hello, World!" to the console using cout.
+#include <bits/std++.h>
+
+using namespace std;
+
+int main()
+{
+    cout<<"Hello World";
+
+    return 0;
+}
+............................................................................................................................................
+//Q.2  Create a program that takes user input for their name and then prints a greeting using cout.
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    string name;
+    cout<<"enter your name ";
+    cin>> name;
+    cout<<"hello" <<" " <<"sukhveer singh" <<" " <<"welcome to the program."; 
+    return 0;
+}
+....................................................................................................................................
+//Q.3 Write a program that takes two numbers as input and prints their sum.
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+     int a,b,sum;
+    cout<<"enter the value of a and b\n";
+    cin>>a>>b;
+    sum=a+b;
+    cout<<"the sum  of a and b is "<<sum;
+
+    return 0;
+}
+............................................................................................................................................
+//Q.4  Prompt the user for the length and width of a rectangle, calculate its area, and then print the result.
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int length,width,area;
+    cout<<"enter the value of length and width \n";
+    cin>>length>>width;
+    area=length*width;
+    cout<<"the area of ractangle is :" <<area;
+    return 0;
+}
+...............................................................................................................................................
+//Q.5 Write a program that prints a greeting message, such as "Welcome to the Programming World!" using cout.
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    cout<<"welcome to the programming word";
+    return 0;
+}
+................................................................................................................................................
+//Q.6 Create a program that prints a simple message, like "Learning programming is fun!" to the console.
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    cout<<"Learning programming is fun";
+    return 0;
+}
+...............................................................................................................................................
+//Q.7 Write a program that prints "Hello, Universe!" to the console using cout.
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    cout<<"Hello, Universe!";
+    return 0;
+}
+...................................................................................................................................................
+//Q.8 Display a message that expresses excitement about programming, such as "Programming is amazing and opens up new possibilities!"
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    cout<<"Programming is amazing and opens up new possibilities!";
+    return 0;
+}
+....................................................................................................................................................
+//Q.9 Print an inspirational programming quote, like "Coding is today's language of creativity" using cout.
+
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    cout<<"Coding is today's language of creativity";
+    return 0;
+}
+....................................................................................................................................................
+//Q.10 Write a program that prints your name to the console using cout. Create a program that says goodbye, such as "Goodbye, see you next time!" using cout.
+
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    cout<<"sukhveer" <<" " <<"Goodbye, see you next time!";
+    return 0;
+}
+..........................................................................................................................................................
+//Q.11 Print a motto related to coding, for example, "Code today for a better tomorrow."
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    cout<<"Code today for a better tomorrow.";
+    return 0;
+}
+............................................................................................................................................................
+//Q.12 Display a message expressing your favorite programming language, like "My favorite programming language is [language]."
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    cout<<"My favorite programming language is c++.";
+    return 0;
+}
+.........................................................................................................................................................
+//Q.13 Write a program that prints a message about your learning progress, such as "Making great strides in programming today!"
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    cout<<"Making great strides in programming today!";
+";
+
+    return 0;
+}
+..........................................................................................................................................
+//Q.14 Extend the calculator program from before to take two numbers as input from the user and print the result.
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int a,b;
+    cout<<"enter the value of a and b\n";
+    cin>>a>>b;
+    cout<<"the value of a is" <<a <<"the value of b is" <<b;
+
+    return 0;
+}
+..........................................................................................................................................//Q.15 Write a program that takes the user's birth year as input and calculates their age, then prints a message like "You are [age] years old."
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+   int birth_year,present_year,age;
+   cout<<"enter the birth year :";
+   cin>>birth_year;
+   cout<<"enter the present year :";
+   cin>>present_year;
+   age=present_year-birth_year;
+   cout<<"you are"<<" "<<age<<" "<<"year old";
+   
+    return 0;
+}
+.........................................................................................................................................
+//Q.16 Create a program that asks the user for their favorite color and prints a message like "Your favorite color is [color]."
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+   string favorite_colour;
+   cout<<"what is your favorite colour :";
+   cin>>favorite_colour;
+   cout<<"your favorite colour is" <<" " <<favorite_colour;
+   
+    return 0;
+}
+.........................................................................................................................................
+//Q.17 Ask the user for the principal amount, interest rate, and time (in years). Calculate and print the simple interest.
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+   float principle_amount,interst_rate,year,simpleinterst;
+   cout<<"enter the principle amount";
+   cin>>principle_amount;
+   cout<<"enter annual interst rate";
+   cin>>interst_rate;
+   cout<<"enter the year";
+   cin>>year;
+   simpleinterst=principle_amount*interst_rate*year/100;
+   cout<<"simpleinterst :"<<simpleinterst;
+    return 0;
+}
+..........................................................................................................................................
+//Q.18 Take a word as input from the user and print it twice. For example, if the user enters "apple," the program should print "apple apple."
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    string word;
+    cout<<"enter a word ";
+    cin>>word;
+    cout<<word <<" " <<word;
+    return 0;
+}
+.........................................................................................................................................
+//Q.19 Ask the user for their favorite number and print a message incorporating that number. For example, "Your favorite number is [number]. That's a great choice!"
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int number;
+    cout<<"what is your favorite number ";
+    cin>>number;
+    cout<<"your favorite number is :" <<" " <<number;
+    return 0;
+}
+......................................................................................................................................
+//Q.20 Request the user's name and age, then print a greeting along with their age. For example, "Hello, [name]! You are [age] years old."
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    string name;
+    int age;
+    cout<<"what is your name ";
+    cin>>name;
+    
+    cout<<"what is your age ";
+    cin>>age;
+    cout<<"hello" <<" " <<name <<" " <<"you are" <<" " <<age  <<" " <<"year old";
+    return 0;
+}
+.........................................................................................................................................
+//Q.21 Take a number from the user and print its square. For instance, if the user enters 5, the program should print "The square of 5 is 25."
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+   
+    int number,square;
+    cout<<"what is the number ";
+    cin>>number;
+    square=number*number;
+    cout<<"the square of 5 is" <<" " <<square ;
+    return 0;
+}
+.........................................................................................................................................
+=======
+//Q.1 Write a program that prints "Hello, World!" to the console using cout.
+#include <bits/std++.h>
+
+using namespace std;
+
+int main()
+{
+    cout<<"Hello World";
+
+    return 0;
+}
+............................................................................................................................................
+//Q.2  Create a program that takes user input for their name and then prints a greeting using cout.
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    string name;
+    cout<<"enter your name ";
+    cin>> name;
+    cout<<"hello" <<" " <<"sukhveer singh" <<" " <<"welcome to the program."; 
+    return 0;
+}
+....................................................................................................................................
+//Q.3 Write a program that takes two numbers as input and prints their sum.
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+     int a,b,sum;
+    cout<<"enter the value of a and b\n";
+    cin>>a>>b;
+    sum=a+b;
+    cout<<"the sum  of a and b is "<<sum;
+
+    return 0;
+}
+............................................................................................................................................
+//Q.4  Prompt the user for the length and width of a rectangle, calculate its area, and then print the result.
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int length,width,area;
+    cout<<"enter the value of length and width \n";
+    cin>>length>>width;
+    area=length*width;
+    cout<<"the area of ractangle is :" <<area;
+    return 0;
+}
+...............................................................................................................................................
+//Q.5 Write a program that prints a greeting message, such as "Welcome to the Programming World!" using cout.
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    cout<<"welcome to the programming word";
+    return 0;
+}
+................................................................................................................................................
+//Q.6 Create a program that prints a simple message, like "Learning programming is fun!" to the console.
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    cout<<"Learning programming is fun";
+    return 0;
+}
+...............................................................................................................................................
+//Q.7 Write a program that prints "Hello, Universe!" to the console using cout.
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    cout<<"Hello, Universe!";
+    return 0;
+}
+...................................................................................................................................................
+//Q.8 Display a message that expresses excitement about programming, such as "Programming is amazing and opens up new possibilities!"
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    cout<<"Programming is amazing and opens up new possibilities!";
+    return 0;
+}
+....................................................................................................................................................
+//Q.9 Print an inspirational programming quote, like "Coding is today's language of creativity" using cout.
+
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    cout<<"Coding is today's language of creativity";
+    return 0;
+}
+....................................................................................................................................................
+//Q.10 Write a program that prints your name to the console using cout. Create a program that says goodbye, such as "Goodbye, see you next time!" using cout.
+
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    cout<<"sukhveer" <<" " <<"Goodbye, see you next time!";
+    return 0;
+}
+..........................................................................................................................................................
+//Q.11 Print a motto related to coding, for example, "Code today for a better tomorrow."
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    cout<<"Code today for a better tomorrow.";
+    return 0;
+}
+............................................................................................................................................................
+//Q.12 Display a message expressing your favorite programming language, like "My favorite programming language is [language]."
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    cout<<"My favorite programming language is c++.";
+    return 0;
+}
+.........................................................................................................................................................
+//Q.13 Write a program that prints a message about your learning progress, such as "Making great strides in programming today!"
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    cout<<"Making great strides in programming today!";
+";
+
+    return 0;
+}
+..........................................................................................................................................
+//Q.14 Extend the calculator program from before to take two numbers as input from the user and print the result.
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int a,b;
+    cout<<"enter the value of a and b\n";
+    cin>>a>>b;
+    cout<<"the value of a is" <<a <<"the value of b is" <<b;
+
+    return 0;
+}
+..........................................................................................................................................//Q.15 Write a program that takes the user's birth year as input and calculates their age, then prints a message like "You are [age] years old."
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+   int birth_year,present_year,age;
+   cout<<"enter the birth year :";
+   cin>>birth_year;
+   cout<<"enter the present year :";
+   cin>>present_year;
+   age=present_year-birth_year;
+   cout<<"you are"<<" "<<age<<" "<<"year old";
+   
+    return 0;
+}
+.........................................................................................................................................
+//Q.16 Create a program that asks the user for their favorite color and prints a message like "Your favorite color is [color]."
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+   string favorite_colour;
+   cout<<"what is your favorite colour :";
+   cin>>favorite_colour;
+   cout<<"your favorite colour is" <<" " <<favorite_colour;
+   
+    return 0;
+}
+.........................................................................................................................................
+//Q.17 Ask the user for the principal amount, interest rate, and time (in years). Calculate and print the simple interest.
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+   float principle_amount,interst_rate,year,simpleinterst;
+   cout<<"enter the principle amount";
+   cin>>principle_amount;
+   cout<<"enter annual interst rate";
+   cin>>interst_rate;
+   cout<<"enter the year";
+   cin>>year;
+   simpleinterst=principle_amount*interst_rate*year/100;
+   cout<<"simpleinterst :"<<simpleinterst;
+    return 0;
+}
+..........................................................................................................................................
+//Q.18 Take a word as input from the user and print it twice. For example, if the user enters "apple," the program should print "apple apple."
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    string word;
+    cout<<"enter a word ";
+    cin>>word;
+    cout<<word <<" " <<word;
+    return 0;
+}
+.........................................................................................................................................
+//Q.19 Ask the user for their favorite number and print a message incorporating that number. For example, "Your favorite number is [number]. That's a great choice!"
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int number;
+    cout<<"what is your favorite number ";
+    cin>>number;
+    cout<<"your favorite number is :" <<" " <<number;
+    return 0;
+}
+......................................................................................................................................
+//Q.20 Request the user's name and age, then print a greeting along with their age. For example, "Hello, [name]! You are [age] years old."
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    string name;
+    int age;
+    cout<<"what is your name ";
+    cin>>name;
+    
+    cout<<"what is your age ";
+    cin>>age;
+    cout<<"hello" <<" " <<name <<" " <<"you are" <<" " <<age  <<" " <<"year old";
+    return 0;
+}
+.........................................................................................................................................
+//Q.21 Take a number from the user and print its square. For instance, if the user enters 5, the program should print "The square of 5 is 25."
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+   
+    int number,square;
+    cout<<"what is the number ";
+    cin>>number;
+    square=number*number;
+    cout<<"the square of 5 is" <<" " <<square ;
+    return 0;
+}
+.........................................................................................................................................
+
