@@ -1,0 +1,810 @@
+
+//Q.1 (a*b)+(y*q)+(z*R)
+#include <bits/stdc++.h>
+using namespace std;
+
+int
+main ()
+{
+  int a, b, y, q, z, R,ans;
+  cout<<"enter the value of a,b,y,q,z,R\n";
+  cin>>a>>b>>y>>q>>z>>R;
+  ans=(a*b)+(y*q)+(z*R);
+  cout<<"ans is" <<" " <<ans; 
+  return 0;
+}
+............................................................................................................................................
+//Q.2 ((x/b)+(a*q)+(y*c))/b
+#include <bits/stdc++.h>
+using namespace std;
+
+int main ()
+{
+  float x, b, a, q, y, c, ans;
+  cout<<"enter the value of x,b,a,q,y,c,b\n";
+  cin>>x>>b>>a>>q>>y>>c>>b;
+  ans=((x/b)+(a*q)+(y*c))/b;
+  cout<<"ans is" <<" " <<ans; 
+  return 0;
+}
+..........................................................................................................................................
+//Q.3 (a×b)+(y×q)+(z×R)
+#include <bits/stdc++.h>
+using namespace std;
+
+int main ()
+{
+  int a, b, y, q, z, R, ans;
+  cout<<"enter the value of a,b,y,q,z,R\n";
+  cin>>a>>b>>y>>q>>z>>R;
+  ans=(a*b)+(y*q)+(z*R);
+  cout<<"ans is" <<" " <<ans; 
+  return 0;
+}
+..........................................................................................................................................
+//Q.4 b(x+a×q+y×c)
+#include <bits/stdc++.h>
+using namespace std;
+
+int main ()
+{
+  int b,x,a,q,y,c,ans;
+  cout<<"enter the value of b,x,a,q,y,c\n";
+  cin>>b>>x>>a>>q>>y>>c;
+  ans=b*(x+a*q+y*c);
+  cout<<"ans is" <<" " <<ans; 
+  return 0;
+}
+.........................................................................................................................................
+//Q.5 (m×n)+(p×q)+(r×s)
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main ()
+{
+  int m,n,p,q,r,s,ans;
+  cout<<"enter the value of m,n,p,q,r,s\n";
+  cin>>m>>n>>p>>q>>r>>s;
+  ans=(m*n)+(p*q)+(r*s);
+ cout<<"ans is" <<" " <<ans; 
+  return 0;
+}
+..........................................................................................................................................
+//Q.6 b(x+a×q+y×c)
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+   int b,x,a,q,y,c,ans;
+  cout<<"enter the value of b,x,a,q,y,c\n";
+  cin>>b>>x>>a>>q>>y>>c;
+  ans=b*(x+a*q+y*c);
+ cout<<"ans is" <<" " <<ans; 
+
+    return 0;
+}
+..........................................................................................................................................
+//Q.7 (u×v)+(w×x)+(y×z)
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+   int u,v,w,x,y,z,ans;
+  cout<<"enter the value of u,v,w,x,y,z\n";
+  cin>>u>>v>>w>>x>>y>>z;
+  ans=(u*v)+(w*x)+(y*z);
+ cout<<"ans is" <<" " <<ans; 
+
+    return 0;
+}
+.........................................................................................................................................
+//Q.8 u(p+q×r+s×t)​
+
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+   int u,p,q,r,s,t,ans;
+  cout<<"enter the value of u,p,q,r,s,t\n";
+  cin>>u>>p>>q>>r>>s>>t;
+  ans=u*(p+q*r+s*t);
+  cout<<"ans is" <<" " <<ans; 
+
+    return 0;
+}
+..........................................................................................................................................
+//Q.9 (a×b)+(c×d)+(e×f)
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+   int a,b,c,d,e,f,ans;
+  cout<<"enter the value of a,b,c,d,e,f \n";
+  cin>>a>>b>>c>>d>>e>>f;
+  ans=(a*b)+(c*d)+(e*f);
+  cout<<"ans is" <<" " <<ans; 
+
+    return 0;
+}
+.........................................................................................................................................
+//Q.10 b(x+a×q+y×c)
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+   int b,x,a,q,y,c,ans;
+  cout<<"enter the value of b,x,a,q,y,c \n";
+  cin>>b>>x>>a>>q>>y>>c;
+  ans=b*(x+a*q+y*c);
+  cout<<"ans is" <<" " <<ans; 
+
+    return 0;
+}
+..........................................................................................................................................
+//Q.11 (g×h)+(i×j)+(k×l)
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+   int g,h,i,j,k,l,ans;
+  cout<<"enter the value of g,h,i,j,k,l\n";
+  cin>>g>>h>>i>>j>>k>>l;
+  ans=(g*h)+(i*j)+(k*l);
+  cout<<"ans is" <<" " <<ans; 
+
+    return 0;
+}
+.........................................................................................................................................
+//Q.12 (x+(a×q+y×c)/b
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+   float x,a,q,y,c,b,ans;
+  cout<<"enter the value of x,a,q,y,c,b\n";
+  cin>>x>>a>>q>>y>>c;
+  ans=(x+(a*q+y*c))/b;
+  cout<<"ans is" <<" " <<ans; 
+
+    return 0;
+}
+..........................................................................................................................................//Q.13 (2×3)+(5×4)+(7×8)
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int result;
+   cout<< "(2*3)+(5*4)+(7*8)\n";
+   result=(2*3)+(5*4)+(7*8);
+   cout<<result;
+
+    return 0;
+}
+..........................................................................................................................................
+//Q.14 ((10/2)+(3×6)+(5×2))/2
+
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int result;
+   cout<< "((10/2)+(3*6)+(5*2))/2\n";
+   result=((10/2)+(3*6)+(5*2))/2;
+   cout<<result;
+
+    return 0;
+}
+..........................................................................................................................................
+//Q.15 (4×7)+(9×2)+(6×3)
+
+
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int result;
+   cout<< "(4*7)+(9*2)+(6*3)\n";
+   result=(4*7)+(9*2)+(6*3);
+   cout<<result;
+
+    return 0;
+}
+.........................................................................................................................................
+//Q.16 ((8/4)+(2×5)+(7×3))/4
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    float result;
+   cout<< "((8/4)+(2*5)+(7*3))/4\n";
+   result=((8/4)+(2*5)+(7*3))/4;
+   cout<<result;
+
+    return 0;
+}
+..........................................................................................................................................
+//Q.17 (3×6)+(4×2)+(9×5)
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int result;
+   cout<< "(3*6)+(4*2)+(9*5)\n";
+   result=(3*6)+(4*2)+(9*5);
+   cout<< "ans is " <<" " <<result;
+
+    return 0;
+}
+.........................................................................................................................................
+//Q.18 ((12/3)+(6×2)+(4×8))/3
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int result;
+   cout<< "((12/3)+(6*2)+(4*8))/3\n";
+   result=((12/3)+(6*2)+(4*8))/3;
+   cout<< "ans is " <<" " <<result;
+
+    return 0;
+}
+.........................................................................................................................................
+//Q.19 (5×7)+(2×4)+(6×9)
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int result;
+   cout<< "(5*7)+(2*4)+(6*9)\n";
+   result=(5*7)+(2*4)+(6*9);
+   cout<< "ans is " <<" " <<result;
+
+    return 0;
+}
+.........................................................................................................................................
+//Q.20 (6×5)+(3×7)+(2×9)
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int result;
+   cout<< "(6*5)+(3*7)+(2*9)\n";
+   result=(6*5)+(3*7)+(2*9);
+   cout<< "ans is " <<" " <<result;
+
+    return 0;
+}
+.........................................................................................................................................
+//Q.21 s1="jitendra"s2="anils3="shivam"concatenate the string s1,s2,s3
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    string s1 = "jitendra";
+    string s2 = "anil";
+    string s3 = "shivam";
+    string result = s1 + s2  + s3;
+    cout << result;
+    return 0;
+}
+..........................................................................................................................................
+//Q.22 s1="jitendra"s2="anils3="shivam"concatenate the string s1,s2,s3
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    string s1 = "this is ";
+    string s2 = "my friend";
+    string s3 = "is playing cricket";
+    string result = s1 + s2  + s3;
+    cout << result;
+    return 0;
+}
+.........................................................................................................................................
+//Q.23 Take input for principal amount, rate of interest, and time. Calculate the simple interest and display the result.
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+   float principle_amount,interst_rate,year,simpleinterst;
+   cout<<"enter the principle amount";
+   cin>>principle_amount;
+   cout<<"enter annual interst rate";
+   cin>>interst_rate;
+   cout<<"enter the year";
+   cin>>year;
+   simpleinterst=principle_amount*interst_rate*year/100;
+   cout<<"simpleinterst :"<<simpleinterst;
+    return 0;
+}
+
+.........................................................................................................................................
+//Q.24 Prompt the user for a temperature in Celsius and convert it to Fahrenheit. Print the result in a meaningful message.
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    double Celsius,Fahrenheit;
+    cout<<"enter temperature in Celsius";
+    cin>>Celsius;
+    Fahrenheit=(Celsius) * 9/5  + 32;
+    cout<<"Fahrenheit is " <<Fahrenheit;
+
+    return 0;
+}
+.........................................................................................................................................
+//Q.25 Ask the user to enter the radius of a circle. Calculate the area and print a message like "The area of the circle with radius [radius] is [area]."
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    double radius,area;
+    cout<<"enter the value of radius";
+    cin>>radius;
+    area=M_PI * pow(radius, 2);
+    cout<<"the area of the cicle is" <<" " <<area;
+
+    return 0;
+}
+..........................................................................................................................................
+=======
+//Q.1 (a*b)+(y*q)+(z*R)
+#include <bits/stdc++.h>
+using namespace std;
+
+int
+main ()
+{
+  int a, b, y, q, z, R,ans;
+  cout<<"enter the value of a,b,y,q,z,R\n";
+  cin>>a>>b>>y>>q>>z>>R;
+  ans=(a*b)+(y*q)+(z*R);
+  cout<<"ans is" <<" " <<ans; 
+  return 0;
+}
+............................................................................................................................................
+//Q.2 ((x/b)+(a*q)+(y*c))/b
+#include <bits/stdc++.h>
+using namespace std;
+
+int main ()
+{
+  float x, b, a, q, y, c, ans;
+  cout<<"enter the value of x,b,a,q,y,c,b\n";
+  cin>>x>>b>>a>>q>>y>>c>>b;
+  ans=((x/b)+(a*q)+(y*c))/b;
+  cout<<"ans is" <<" " <<ans; 
+  return 0;
+}
+..........................................................................................................................................
+//Q.3 (a×b)+(y×q)+(z×R)
+#include <bits/stdc++.h>
+using namespace std;
+
+int main ()
+{
+  int a, b, y, q, z, R, ans;
+  cout<<"enter the value of a,b,y,q,z,R\n";
+  cin>>a>>b>>y>>q>>z>>R;
+  ans=(a*b)+(y*q)+(z*R);
+  cout<<"ans is" <<" " <<ans; 
+  return 0;
+}
+..........................................................................................................................................
+//Q.4 b(x+a×q+y×c)
+#include <bits/stdc++.h>
+using namespace std;
+
+int main ()
+{
+  int b,x,a,q,y,c,ans;
+  cout<<"enter the value of b,x,a,q,y,c\n";
+  cin>>b>>x>>a>>q>>y>>c;
+  ans=b*(x+a*q+y*c);
+  cout<<"ans is" <<" " <<ans; 
+  return 0;
+}
+.........................................................................................................................................
+//Q.5 (m×n)+(p×q)+(r×s)
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main ()
+{
+  int m,n,p,q,r,s,ans;
+  cout<<"enter the value of m,n,p,q,r,s\n";
+  cin>>m>>n>>p>>q>>r>>s;
+  ans=(m*n)+(p*q)+(r*s);
+ cout<<"ans is" <<" " <<ans; 
+  return 0;
+}
+..........................................................................................................................................
+//Q.6 b(x+a×q+y×c)
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+   int b,x,a,q,y,c,ans;
+  cout<<"enter the value of b,x,a,q,y,c\n";
+  cin>>b>>x>>a>>q>>y>>c;
+  ans=b*(x+a*q+y*c);
+ cout<<"ans is" <<" " <<ans; 
+
+    return 0;
+}
+..........................................................................................................................................
+//Q.7 (u×v)+(w×x)+(y×z)
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+   int u,v,w,x,y,z,ans;
+  cout<<"enter the value of u,v,w,x,y,z\n";
+  cin>>u>>v>>w>>x>>y>>z;
+  ans=(u*v)+(w*x)+(y*z);
+ cout<<"ans is" <<" " <<ans; 
+
+    return 0;
+}
+.........................................................................................................................................
+//Q.8 u(p+q×r+s×t)​
+
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+   int u,p,q,r,s,t,ans;
+  cout<<"enter the value of u,p,q,r,s,t\n";
+  cin>>u>>p>>q>>r>>s>>t;
+  ans=u*(p+q*r+s*t);
+  cout<<"ans is" <<" " <<ans; 
+
+    return 0;
+}
+..........................................................................................................................................
+//Q.9 (a×b)+(c×d)+(e×f)
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+   int a,b,c,d,e,f,ans;
+  cout<<"enter the value of a,b,c,d,e,f \n";
+  cin>>a>>b>>c>>d>>e>>f;
+  ans=(a*b)+(c*d)+(e*f);
+  cout<<"ans is" <<" " <<ans; 
+
+    return 0;
+}
+.........................................................................................................................................
+//Q.10 b(x+a×q+y×c)
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+   int b,x,a,q,y,c,ans;
+  cout<<"enter the value of b,x,a,q,y,c \n";
+  cin>>b>>x>>a>>q>>y>>c;
+  ans=b*(x+a*q+y*c);
+  cout<<"ans is" <<" " <<ans; 
+
+    return 0;
+}
+..........................................................................................................................................
+//Q.11 (g×h)+(i×j)+(k×l)
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+   int g,h,i,j,k,l,ans;
+  cout<<"enter the value of g,h,i,j,k,l\n";
+  cin>>g>>h>>i>>j>>k>>l;
+  ans=(g*h)+(i*j)+(k*l);
+  cout<<"ans is" <<" " <<ans; 
+
+    return 0;
+}
+.........................................................................................................................................
+//Q.12 (x+(a×q+y×c)/b
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+   float x,a,q,y,c,b,ans;
+  cout<<"enter the value of x,a,q,y,c,b\n";
+  cin>>x>>a>>q>>y>>c;
+  ans=(x+(a*q+y*c))/b;
+  cout<<"ans is" <<" " <<ans; 
+
+    return 0;
+}
+..........................................................................................................................................
+//Q.13 (2×3)+(5×4)+(7×8)
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int result;
+   cout<< "(2*3)+(5*4)+(7*8)\n";
+   result=(2*3)+(5*4)+(7*8);
+   cout<<result;
+
+    return 0;
+}
+..........................................................................................................................................
+//Q.14 ((10/2)+(3×6)+(5×2))/2
+
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int result;
+   cout<< "((10/2)+(3*6)+(5*2))/2\n";
+   result=((10/2)+(3*6)+(5*2))/2;
+   cout<<result;
+
+    return 0;
+}
+..........................................................................................................................................
+//Q.15 (4×7)+(9×2)+(6×3)
+
+
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int result;
+   cout<< "(4*7)+(9*2)+(6*3)\n";
+   result=(4*7)+(9*2)+(6*3);
+   cout<<result;
+
+    return 0;
+}
+.........................................................................................................................................
+//Q.16 ((8/4)+(2×5)+(7×3))/4
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    float result;
+   cout<< "((8/4)+(2*5)+(7*3))/4\n";
+   result=((8/4)+(2*5)+(7*3))/4;
+   cout<<result;
+
+    return 0;
+}
+..........................................................................................................................................
+//Q.17 (3×6)+(4×2)+(9×5)
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int result;
+   cout<< "(3*6)+(4*2)+(9*5)\n";
+   result=(3*6)+(4*2)+(9*5);
+   cout<< "ans is " <<" " <<result;
+
+    return 0;
+}
+.........................................................................................................................................
+//Q.18 ((12/3)+(6×2)+(4×8))/3
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int result;
+   cout<< "((12/3)+(6*2)+(4*8))/3\n";
+   result=((12/3)+(6*2)+(4*8))/3;
+   cout<< "ans is " <<" " <<result;
+
+    return 0;
+}
+.........................................................................................................................................
+//Q.19 (5×7)+(2×4)+(6×9)
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int result;
+   cout<< "(5*7)+(2*4)+(6*9)\n";
+   result=(5*7)+(2*4)+(6*9);
+   cout<< "ans is " <<" " <<result;
+
+    return 0;
+}
+.........................................................................................................................................
+//Q.20 (6×5)+(3×7)+(2×9)
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int result;
+   cout<< "(6*5)+(3*7)+(2*9)\n";
+   result=(6*5)+(3*7)+(2*9);
+   cout<< "ans is " <<" " <<result;
+
+    return 0;
+}
+.........................................................................................................................................
+//Q.21 s1="jitendra"s2="anils3="shivam"concatenate the string s1,s2,s3
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    string s1 = "jitendra";
+    string s2 = "anil";
+    string s3 = "shivam";
+    string result = s1 + s2  + s3;
+    cout << result;
+    return 0;
+}
+..........................................................................................................................................
+//Q.22 s1="jitendra"s2="anils3="shivam"concatenate the string s1,s2,s3
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    string s1 = "this is ";
+    string s2 = "my friend";
+    string s3 = "is playing cricket";
+    string result = s1 + s2  + s3;
+    cout << result;
+    return 0;
+}
+.........................................................................................................................................
+//Q.23 Take input for principal amount, rate of interest, and time. Calculate the simple interest and display the result.
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+   float principle_amount,interst_rate,year,simpleinterst;
+   cout<<"enter the principle amount";
+   cin>>principle_amount;
+   cout<<"enter annual interst rate";
+   cin>>interst_rate;
+   cout<<"enter the year";
+   cin>>year;
+   simpleinterst=principle_amount*interst_rate*year/100;
+   cout<<"simpleinterst :"<<simpleinterst;
+    return 0;
+}
+
+.........................................................................................................................................
+//Q.24 Prompt the user for a temperature in Celsius and convert it to Fahrenheit. Print the result in a meaningful message.
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    double Celsius,Fahrenheit;
+    cout<<"enter temperature in Celsius";
+    cin>>Celsius;
+    Fahrenheit=(Celsius) * 9/5  + 32;
+    cout<<"Fahrenheit is " <<Fahrenheit;
+
+    return 0;
+}
+.........................................................................................................................................
+//Q.25 Ask the user to enter the radius of a circle. Calculate the area and print a message like "The area of the circle with radius [radius] is [area]."
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    double radius,area;
+    cout<<"enter the value of radius";
+    cin>>radius;
+    area=M_PI * pow(radius, 2);
+    cout<<"the area of the cicle is" <<" " <<area;
+
+    return 0;
+}
+..........................................................................................................................................
+
