@@ -1,0 +1,387 @@
+
+//Q.1 print: ax+by where(a and b are user input)
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int a,b;
+    cout<<"enter the value of a";
+    cin>>a;
+    cout<<"enter the value of b";
+    cin>>b;
+    cout<<a <<"x+" <<b <<"y";
+
+    return 0;
+}
+...........................................................................................................................................
+//Q.2 print tan(a)+tan(b) where(a and b are user input)
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int a,b;
+    cout<<"enter the value of a";
+    cin>>a;
+    cout<<"enter the value of b";
+    cin>>b;
+    cout<<"tan" <<a <<"+" <<"tan" <<b;
+
+    return 0;
+}
+..........................................................................................................................................
+//Q.3 print: sin(a)+sin(b) where(a and b are user input)
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int a,b;
+    cout<<"enter the value of a";
+    cin>>a;
+    cout<<"enter the value of b";
+    cin>>b;
+    cout<<"sin" <<a <<"+" <<"sin" <<b;
+
+    return 0;
+}
+..........................................................................................................................................
+//Q.4 print: sin(a)/sin(b) where(a and b are user input)
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int a,b;
+    cout<<"enter the value of a";
+    cin>>a;
+    cout<<"enter the value of b";
+    cin>>b;
+    cout<<"sin" <<a <<"/" <<"sin" <<b;
+
+    return 0;
+}
+
+..........................................................................................................................................
+//Q.5 print: axy+by^3 where(a and b are user input)
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int a,b;
+    cout<<"enter the value of a";
+    cin>>a;
+    cout<<"enter the value of b";
+    cin>>b;
+    cout<<a <<"xy" <<"+" <<b <<"y" <<"^3";
+
+    return 0;
+}
+
+..........................................................................................................................................
+//Q.6 calculate: 3xy−7z
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int x,y,z,result;
+    cout<<"enter the value of x";
+    cin>>x;
+    cout<<"enter the value of y";
+    cin>>y;
+    cout<<"enter the value of z";
+    cin>>z;
+    result=3*x*y-7*z;
+    cout<<"the result of 3xy−7z is" <<result;
+
+    return 0;
+}
+..........................................................................................................................................
+//Q.7 calculate: ba+4c
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int b,a,c,result;
+    cout<<"enter the value of b";
+    cin>>b;
+    cout<<"enter the value of a";
+    cin>>a;
+    cout<<"enter the value of c";
+    cin>>c;
+    result=b*a+4*c;
+    cout<<"the result of ba+4c is" <<result;
+
+    return 0;
+}
+
+..........................................................................................................................................
+//Q.8 calculate: xy+2z
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int x,y,z,result;
+    cout<<"enter the value of x";
+    cin>>x;
+    cout<<"enter the value of y";
+    cin>>y;
+    cout<<"enter the value of z";
+    cin>>z;
+    result=x*y+2*z;
+    cout<<"the result of xy+2z is" <<result;
+
+    return 0;
+}
+
+..........................................................................................................................................
+//Q.9 calculate: 2^d * 3c−e
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int d,c,e,result;
+    cout<<"enter the value of d:";
+    cin>>d;
+    cout<<"enter the value of c:";
+    cin>>c;
+    cout<<"enter the value of e:";
+    cin>>e;
+    result=pow(2, d) * pow(3, c) - e;
+    cout<<"the result of 2^d * 3c−e is" <<result;
+
+    return 0;
+}
+
+.........................................................................................................................................
+//Q.10 calculate: e^2* b
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int e,b,result;
+    cout<<"enter the value of e:";
+    cin>>e;
+    cout<<"enter the value of b:";
+    cin>>b;
+    result= pow(e, 2) * b;
+    cout<<"the result of  e^2* b is" <<result;
+
+    return 0;
+}
+..........................................................................................................................................
+//Q.11 calculate: a/sqrt(b,4)+3c
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    float a,b,c,result;
+    cout<<"enter the value of a:";
+    cin>>a;
+    cout<<"enter the value of b:";
+    cin>>b;
+    cout<<"enter the value of c:";
+    cin>>c;
+    result= a / pow(b, 1.0/4.0) + 3 * c;
+    cout<<"the result of a/sqrt(b,4)+3c is" <<result;
+
+    return 0;
+}
+..........................................................................................................................................
+//Q.12 calculate: 2x+5
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int x,result;
+    cout<<"enter the value of x:";
+    cin>>x;
+    result= 2*x+5;
+    cout<<"the result of 2x+5 is" <<result;
+
+    return 0;
+}
+
+..........................................................................................................................................
+//Q.13 calculate: 3y2−7
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int y,result;
+    cout<<"enter the value of y:";
+    cin>>y;
+    result= 3*y*2-7;
+    cout<<"the result of 3y2−7 is" <<result;
+
+    return 0;
+}
+
+..........................................................................................................................................
+//Q.14 calculate: 3xyx−7zu where u is constant
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int x,y,z,u,result;
+    cout<<"enter the value of x:";
+    cin>>x;
+    cout<<"enter the value of y:";
+    cin>>y;
+    cout<<"enter the value of z:";
+    cin>>z;
+    cout<<"Enter the value of u (constant): ";
+    cin>> u;
+    result= 3*x*y*x-7*z*u;
+    cout<<"the result of 3xyx−7zu" <<result;
+
+    return 0;
+}
+..........................................................................................................................................
+//Q.15 bap+4cp p is constant
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int b,a,p,c,result;
+    cout<<"enter the value of b:";
+    cin>>b;
+    cout<<"enter the value of a:";
+    cin>>a;
+    cout<<"enter the value of p(constant):";
+    cin>>p;
+    cout<<"Enter the value of c:";
+    cin>>c;
+    result= b*a*p+4*c*p;
+    cout<<"the result of bap+4cp is " <<result;
+
+    return 0;
+}
+
+.............................................................................................................................................
+//Q.16 calculate: xy+2z where z is constant
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int x,y,z,result;
+    cout<<"enter the value of x:";
+    cin>>x;
+    cout<<"enter the value of y:";
+    cin>>y;
+    cout<<"enter the value of z(constant):";
+    cin>>z;
+    result= x*y+2*z;
+    cout<<"the result of  is xy+2z" <<result;
+
+    return 0;
+}
+................................................................................................................................................
+ //Q.17 calculate: 2^d * 3c−e where d is constant
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int d,c,e,result;
+    cout<<"enter the value of d:(constant)";
+    cin>>d;
+    cout<<"enter the value of c:";
+    cin>>c;
+    cout<<"enter the value of e:";
+    cin>>e;
+    result= pow(2, d) * pow(3, c - e);
+    cout<<"the result of  is xy+2z" <<result;
+
+    return 0;
+}
+....................................................................................................................................................
+//Q.18 calculate: e^2* b where e is constant
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int e,b,result;
+    cout<<"enter the value of e:(constant)";
+    cin>>e;
+    cout<<"enter the value of b:";
+    cin>>b;
+    result= pow(e, 2) * b;
+    cout<<"the result of  is e^2* b" <<result;
+
+    return 0;
+}
+........................................................................................................................................................
+//Q.19 calculate: 2x+5x+8  where x is constant
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int x,result;
+    cout<<"enter the value of x:(constant)";
+    cin>>x;
+    result= 2*x+5*x+8;
+    cout<<"the result of 2x+5x+8 is " <<result;
+
+    return 0;
+}
+
+.......................................................................................................................................................
+//Q.20 calculate: 3y2−7 where y is constant
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int y,result;
+    cout<<"enter the value of y:(constant)";
+    cin>>y;
+    result= 3*y*2-7;
+    cout<<"the result of 3y2−7 is " <<result;
+
+    return 0;
+}
+................................................................................................................................................
