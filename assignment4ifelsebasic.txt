@@ -1,0 +1,1125 @@
+//Q.1  If person1's age is greater than person2's age, print "Person1 is older"; otherwise, print "Person2 is older."
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int person1;
+    int person2;
+    cout<<"enter the age of person1 :\n";
+    cin>>person1;
+    cout<<"enter the age of person2 :\n";
+    cin>>person2;
+    if(person1>person2)
+    {
+        cout<<"person1 is older\n";
+    }
+    else{
+        cout<<"person2 is older";
+    } 
+    return 0;
+}
+..........................................................................................................................................
+//Q.2 If student1's score is equal to student2's score, print "Both students scored the same"; otherwise, print "Their scores are different."
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int student1;
+    int student2;
+    cout<<"enter the age of student1 :\n";
+    cin>>student1;
+    cout<<"enter the age of student2 :\n";
+    cin>>student2;
+    if(student1==student2)
+    {
+        cout<<"Both students scored the same\n";
+    }
+    else{
+        cout<<"Their scores are different.";
+    } 
+    return 0;
+}
+..........................................................................................................................................
+//Q.3  If temperature1 is less than temperature2, print "It is colder today"; otherwise, print "It is warmer today."
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int temperature1;
+    int temperature2;
+    cout<<"enter the value of temperature1 :\n";
+    cin>>temperature1;
+    cout<<"enter the value of temperature2 :\n";
+    cin>>temperature2;
+    if(temperature1<temperature2)
+    {
+        cout<<"It is colder today\n";
+    }
+    else{
+        cout<<"It is warmer today.";
+    } 
+    return 0;
+}
+..........................................................................................................................................
+//Q.4  If number1 is not equal to number2, print "The numbers are not equal"; otherwise, print "The numbers are equal."
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int number1;
+    int number2;
+    cout<<"enter the value of number1 :\n";
+    cin>>number1;
+    cout<<"enter the value of number2 :\n";
+    cin>>number2;
+    if(number1!=number2)
+    {
+        cout<<"The numbers are not equal\n";
+    }
+    else{
+        cout<<"The numbers are equal.";
+    } 
+    return 0;
+}
+..........................................................................................................................................
+//Q.5 If person1 is taller than person2, print "Person1 is taller"; otherwise, print "Person2 is taller."
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int person1;
+    int person2;
+    cout<<"enter the value of person1 :\n";
+    cin>>person1;
+    cout<<"enter the value of person2 :\n";
+    cin>>person2;
+    if(person1>person2)
+    {
+        cout<<"person1 is taller\n";
+    }
+    else{
+        cout<<"person2 is taller.";
+    } 
+    return 0;
+}
+..........................................................................................................................................
+//Q.6 If car1's speed is greater than car2's speed, print "Car1 is faster"; otherwise, print "Car2 is faster."
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int Car1;
+    int Car2;
+    cout<<"enter the value of Car1:\n";
+    cin>>Car1;
+    cout<<"enter the value of Car2 :\n";
+    cin>>Car2;
+    if(Car1>Car2)
+    {
+        cout<<"Car1 is faster\n";
+    }
+    else{
+        cout<<"Car2 is faster.";
+    } 
+    return 0;
+}
+..........................................................................................................................................
+//Q.7  If discount1 is smaller than discount2, print "Discount1 is better"; otherwise, print "Discount2 is better."
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int Discount1;
+    int Discount2;
+    cout<<"enter the value of Discount1:\n";
+    cin>>Discount1;
+    cout<<"enter the value of Discount2:\n";
+    cin>>Discount2;
+    if(Discount1<Discount2)
+    {
+        cout<<"Discount1 is better\n";
+    }
+    else{
+        cout<<"Discount2 is better.";
+    } 
+    return 0;
+}
+..........................................................................................................................................
+//Q.8 If price1 is greater than or equal to price2, print "Product1 is expensive"; otherwise, print "Product2 is expensive.
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int price1;
+    int price2;
+    cout<<"enter the value of price1:\n";
+    cin>>price1;
+    cout<<"enter the value of price2:\n";
+    cin>>price2;
+    if(price1>=price2)
+    {
+        cout<<"Product1 is expensive\n";
+    }
+    else{
+        cout<<"Product2 is expensive.";
+    } 
+    return 0;
+}
+..........................................................................................................................................
+//Q.9 If date1 is not equal to date2, print "The dates are different"; otherwise, print "The dates are the same."
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int date1;
+    int date2;
+    cout<<"enter the value of date1:\n";
+    cin>>date1;
+    cout<<"enter the value of date2:\n";
+    cin>>date2;
+    if(date1!=date2)
+    {
+        cout<<"the dates are different\n";
+    }
+    else{
+        cout<<"the dates are the same.";
+    } 
+    return 0;
+}
+..........................................................................................................................................
+//Q.10 If weight1 is smaller than weight2, print "Object1 is lighter"; otherwise, print "Object2 is lighter."
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int weight1;
+    int weight2;
+    cout<<"enter the value of weight1:\n";
+    cin>>weight1;
+    cout<<"enter the value of weight2:\n";
+    cin>>weight2;
+    if(weight1<weight2)
+    {
+        cout<<"Object1 is lighter\n";
+    }
+    else{
+        cout<<"Object2 is lighter.";
+    } 
+    return 0;
+}
+..........................................................................................................................................
+//Q.11  If distance1 is greater than distance2, print "Location1 is farther"; otherwise, print "Location2 is farther."
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int distance1;
+    int distance2;
+    cout<<"enter the value of distance1:\n";
+    cin>>distance1;
+    cout<<"enter the value of distance2:\n";
+    cin>>distance2;
+    if(distance1>distance2)
+    {
+        cout<<"Location1 is farther\n";
+    }
+    else{
+        cout<<"Location2 is farther.";
+    } 
+    return 0;
+}
+..........................................................................................................................................
+//Q.12  If population1 is greater than population2, print "City1 is more populous"; otherwise, print "City2 is more populous."
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int population1;
+    int population2;
+    cout<<"enter the value of population1:\n";
+    cin>>population1;
+    cout<<"enter the value of population2:\n";
+    cin>>population2;
+    if(population1>population2)
+    {
+        cout<<"City1 is more populous\n";
+    }
+    else{
+        cout<<"City2 is more populous.";
+    } 
+    return 0;
+}
+..........................................................................................................................................
+//Q.13  If result1 is equal to result2, print "Both students passed"; otherwise, print "One student failed."
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int result1;
+    int result2;
+    cout<<"enter the value of result1:\n";
+    cin>>result1;
+    cout<<"enter the value of result2:\n";
+    cin>>result2;
+    if(result1==result2)
+    {
+        cout<<"Both students passed\n";
+    }
+    else{
+        cout<<"One student failed.";
+    } 
+    return 0;
+}
+..........................................................................................................................................
+//Q.14 If person1's height is not equal to person2's height, print "Their heights are different"; otherwise, print "They have the same height."
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int person1;
+    int person2;
+    cout<<"enter the value of person1:\n";
+    cin>>person1;
+    cout<<"enter the value of person2:\n";
+    cin>>person2;
+    if(person1!=person2)
+    {
+        cout<<"Their heights are different\n";
+    }
+    else{
+        cout<<"They have the same height.";
+    } 
+    return 0;
+}
+..........................................................................................................................................
+//Q.15 If number1 is greater than number2, print "Number1 is greater"; otherwise, print "Number2 is greater or equal."
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int Number1;
+    int Number2;
+    cout<<"enter the value of Number1:\n";
+    cin>>Number1;
+    cout<<"enter the value of Number2:\n";
+    cin>>Number2;
+    if(Number1>Number2)
+    {
+        cout<<"Number1 is greater\n";
+    }
+    else{
+        cout<<"Number2 is greater or equal.";
+    } 
+    return 0;
+}
+.........................................................................................................................................
+//Q.16 If speed1 is smaller than speed2, print "Object1 is slower"; otherwise, print "Object2 is slower."
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int speed1;
+    int speed2;
+    cout<<"enter the value of speed1:\n";
+    cin>>speed1;
+    cout<<"enter the value of speed2:\n";
+    cin>>speed2;
+    if(speed1<speed2)
+    {
+        cout<<"Object1 is slower\n";
+    }
+    else{
+        cout<<"Object2 is slower.";
+    } 
+    return 0;
+}
+..........................................................................................................................................
+//Q.17 If cost1 is greater than cost2, print "Item1 is more expensive"; otherwise, print "Item2 is more expensive."
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int cost1;
+    int cost2;
+    cout<<"enter the value of cost1:\n";
+    cin>>cost1;
+    cout<<"enter the value of cost2:\n";
+    cin>>cost2;
+    if(cost1>cost2)
+    {
+        cout<<"Item1 is more expensive\n";
+    }
+    else{
+        cout<<"Item2 is more expensive.";
+    } 
+    return 0;
+}
+.........................................................................................................................................
+//Q.18 If quantity1 is not equal to quantity2, print "The quantities are different"; otherwise, print "The quantities are the same."
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int quantity1;
+    int quantity2;
+    cout<<"enter the value of quantity1:\n";
+    cin>>quantity1;
+    cout<<"enter the value of quantity2:\n";
+    cin>>quantity2;
+    if(quantity1!=quantity2)
+    {
+        cout<<"The quantities are different\n";
+    }
+    else{
+        cout<<"The quantities are the same.";
+    } 
+    return 0;
+}
+..........................................................................................................................................
+//Q.20 If age1 is smaller than age2, print "Person1 is younger"; otherwise, print "Person2 is younger."
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int age1;
+    int age2;
+    cout<<"enter the value of age1:\n";
+    cin>>age1;
+    cout<<"enter the value of age2:\n";
+    cin>>age2;
+    if(age1<age2)
+    {
+        cout<<"Person1 is younger\n";
+    }
+    else{
+        cout<<"Person2 is younger";
+    } 
+    return 0;
+}
+..........................................................................................................................................
+//Q.21 If temperature1 is smaller than temperature2, print "It is colder today"; otherwise, print "It is warmer today."
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int temperature1;
+    int temperature2;
+    cout<<"enter the value of temperature1:\n";
+    cin>>temperature1;
+    cout<<"enter the value of temperature2\n";
+    cin>>temperature2;
+    if(temperature1<temperature2)
+    {
+        cout<<"It is colder today\n";
+    }
+    else{
+        cout<<"It is warmer today";
+    } 
+    return 0;
+}
+..........................................................................................................................................
+//Q.22 If price1 is greater than price2, print "Product1 is pricier"; otherwise, print "Product2 is pricier."
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int price1;
+    int price2;
+    cout<<"enter the value of price1:\n";
+    cin>>price1;
+    cout<<"enter the value of price2\n";
+    cin>>price2;
+    if(price1>price2)
+    {
+        cout<<"Product1 is pricier\n";
+    }
+    else{
+        cout<<"Product2 is pricier";
+    } 
+    return 0;
+}
+..........................................................................................................................................
+//Q.23 If age1 is not equal to age2, print "The ages are different"; otherwise, print "The ages are the same."
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int age1;
+    int age2;
+    cout<<"enter the value of age1:\n";
+    cin>>age1;
+    cout<<"enter the value of age2\n";
+    cin>>age2;
+    if(age1!=age2)
+    {
+        cout<<"The ages are different\n";
+    }
+    else{
+        cout<<"The ages are the same";
+    } 
+    return 0;
+}
+..........................................................................................................................................
+
+//Q.24 If distance1 is greater than distance2, print "Location1 is farther"; otherwise, print "Location2 is farther."
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int distance1;
+    int distance2;
+    cout<<"enter the value of distance1:\n";
+    cin>>distance1;
+    cout<<"enter the value of distance2\n";
+    cin>>distance2;
+    if(distance1>distance2)
+    {
+        cout<<"Location1 is farther\n";
+    }
+    else{
+        cout<<"Location2 is farther";
+    } 
+    return 0;
+}
+
+..........................................................................................................................................
+//Q.25 if speed1 is not equal to speed2, print "The speeds are different"; otherwise, print "The speeds are the same."
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int speed1;
+    int speed2;
+    cout<<"enter the value of speed1:\n";
+    cin>>speed1;
+    cout<<"enter the value of speed2\n";
+    cin>>speed2;
+    if(speed1!=speed2)
+    {
+        cout<<"The speeds are different\n";
+    }
+    else{
+        cout<<"the speeds are the same.";
+    } 
+    return 0;
+}
+
+..........................................................................................................................................
+//Q.26 if quantity1 is greater than quantity2, print "Item1 has more quantity"; otherwise, print "Item2 has more quantity."
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int quantity1;
+    int quantity2;
+    cout<<"enter the value of quantity1:\n";
+    cin>>quantity1;
+    cout<<"enter the value of quantity2\n";
+    cin>>quantity2;
+    if(quantity1>quantity2)
+    {
+        cout<<"Item1 has more quantity\n";
+    }
+    else{
+        cout<<"Item2 has more quantity.";
+    } 
+    return 0;
+}
+
+..........................................................................................................................................
+
+//Q.28 If value1 is greater than value2, print "Value1 is greater"; otherwise, print "Value2 is greater or equal."
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int Value1;
+    int Value2;
+    cout<<"enter the value of Value1:\n";
+    cin>>Value1;
+    cout<<"enter the value of Value2\n";
+    cin>>Value2;
+    if(Value1>Value2)
+    {
+        cout<<"Value1 is greater\n";
+    }
+    else{
+        cout<<"Value2 is greater or equal.";
+    } 
+    return 0;
+}
+
+..........................................................................................................................................
+
+//Q.29 If result1 is smaller than result2, print "Player1 didn't perform as well"; otherwise, print "Player2 didn't perform as well."
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int result1;
+    int result2;
+    cout<<"enter the value of result1:\n";
+    cin>>result1;
+    cout<<"enter the value of result2\n";
+    cin>>result2;
+    if(result1<result2)
+    {
+        cout<<"Player1 didn't perform as well\n";
+    }
+    else{
+        cout<<"Player2 didn't perform as well.";
+    } 
+    return 0;
+}
+
+..........................................................................................................................................
+//Q.30 If cost1 is not equal to cost2, print "The costs are different"; otherwise, print "The costs are the same.""
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int cost1;
+    int cost2;
+    cout<<"enter the value of cost1:\n";
+    cin>>cost1;
+    cout<<"enter the value of cost2\n";
+    cin>>cost2;
+    if(cost1!=cost2)
+    {
+        cout<<"The costs are different\n";
+    }
+    else{
+        cout<<"The costs are the same.";
+    } 
+    return 0;
+}
+
+..........................................................................................................................................
+
+//Q.31 if height1 is greater than height2, print "Person1 is taller"; otherwise, print "Person2 is taller."
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int height1;
+    int height2;
+    cout<<"enter the value of height1:\n";
+    cin>>height1;
+    cout<<"enter the value of height2\n";
+    cin>>height2;
+    if(height1>height2)
+    {
+        cout<<"Person1 is taller\n";
+    }
+    else{
+        cout<<"Person2 is taller..";
+    } 
+    return 0;
+}
+
+..........................................................................................................................................
+
+//Q.32 If age1 is smaller than age2, print "Person1 is younger"; otherwise, print "Person2 is younger."
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int age1;
+    int age2;
+    cout<<"enter the value of age1:\n";
+    cin>>age1;
+    cout<<"enter the value of age2\n";
+    cin>>age2;
+    if(age1<age2)
+    {
+        cout<<"Person1 is younger\n";
+    }
+    else{
+        cout<<"Person2 is younger.";
+    } 
+    return 0;
+}
+
+..........................................................................................................................................
+//Q.33 If score1 is greater than score2, print "Player1 scored higher"; otherwise, print "Player2 scored higher."
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int score1;
+    int score2;
+    cout<<"enter the value of score1:\n";
+    cin>>score1;
+    cout<<"enter the value of score2\n";
+    cin>>score2;
+    if(score1>score2)
+    {
+        cout<<"Player1 scored higher\n";
+    }
+    else{
+        cout<<"Player2 scored higher.";
+    } 
+    return 0;
+}
+
+..........................................................................................................................................
+
+//Q.34 if temperature1 is greater than temperature2, print "It is hotter today"; otherwise, print "It is cooler today."
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int temperature1;
+    int temperature2;
+    cout<<"enter the value of temperature1:\n";
+    cin>>temperature1;
+    cout<<"enter the value of temperature2\n";
+    cin>>temperature2;
+    if(temperature1>temperature2)
+    {
+        cout<<"It is hotter today\n";
+    }
+    else{
+        cout<<"It is cooler today.";
+    } 
+    return 0;
+}
+
+..........................................................................................................................................
+
+//Q.35 If distance1 is smaller than distance2, print "Location1 is closer"; otherwise, print "Location2 is closer."
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int distance1;
+    int distance2;
+    cout<<"enter the value of distance1:\n";
+    cin>>distance1;
+    cout<<"enter the value of distance2\n";
+    cin>>distance2;
+    if(distance1<distance2)
+    {
+        cout<<"Location1 is closer\n";
+    }
+    else{
+        cout<<"Location2 is closer.";
+    } 
+    return 0;
+}
+
+..........................................................................................................................................
+
+//Q.36 If speed1 is greater than speed2, print "Object1 is faster"; otherwise, print "Object2 is faster."
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int speed1;
+    int speed2;
+    cout<<"enter the value of speed1:\n";
+    cin>>speed1;
+    cout<<"enter the value of speed2\n";
+    cin>>speed2;
+    if(speed1>speed2)
+    {
+        cout<<"Object1 is faster\n";
+    }
+    else{
+        cout<<"Object2 is faster.";
+    } 
+    return 0;
+}
+
+..........................................................................................................................................
+
+//Q.37 If income1 is smaller than income2, print "Person1 earns less"; otherwise, print "Person2 earns less."
+more units."
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int income1;
+    int income2;
+    cout<<"enter the value of income1:\n";
+    cin>>income1;
+    cout<<"enter the value of income2\n";
+    cin>>income2;
+    if(income1<income2)
+    {
+        cout<<"Person1 earns less\n";
+    }
+    else{
+        cout<<"Person2 earns less.";
+    } 
+    return 0;
+}
+
+..........................................................................................................................................
+
+//Q.38 If quantity1 is greater than quantity2, print "Item1 has more units"; otherwise, print "Item2 has more units."
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int quantity1;
+    int quantity2;
+    cout<<"enter the value of quantity1:\n";
+    cin>>quantity1;
+    cout<<"enter the value of quantity2\n";
+    cin>>quantity2;
+    if(quantity1>quantity2)
+    {
+        cout<<"Item1 has more units\n";
+    }
+    else{
+        cout<<"Item2 has more units.";
+    } 
+    return 0;
+}
+
+
+
+..........................................................................................................................................
+
+
+//Q.39 If temperature1 is not equal to temperature2, print "The temperatures are different"; otherwise, print "The temperatures are the same."
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int temperature1;
+    int temperature2;
+    cout<<"enter the value of temperature1:\n";
+    cin>>temperature1;
+    cout<<"enter the value of temperature2\n";
+    cin>>temperature2;
+    if(temperature1!=temperature2)
+    {
+        cout<<"The temperatures are different\n";
+    }
+    else{
+        cout<<"The temperatures are the same.";
+    } 
+    return 0;
+}
+
+..........................................................................................................................................
+//Q.40 If distance1 is greater than or equal to distance2, print "Location1 is far"; otherwise, print "Location2 is far."
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int distance1;
+    int distance2;
+    cout<<"enter the value of distance1:\n";
+    cin>>distance1;
+    cout<<"enter the value of distance2\n";
+    cin>>distance2;
+    if(distance1>=distance2)
+    {
+        cout<<"Location1 is far\n";
+    }
+    else{
+        cout<<"Location2 is far.";
+    } 
+    return 0;
+}
+..........................................................................................................................................
+
+//Q.41 If cost1 is smaller than cost2, print "Item1 is cheaper"; otherwise, print "Item2 is cheaper."
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int cost1;
+    int cost2;
+    cout<<"enter the value of cost1:\n";
+    cin>>cost1;
+    cout<<"enter the value of cost2\n";
+    cin>>cost2;
+    if(cost1<cost1)
+    {
+        cout<<"Item1 is cheaper\n";
+    }
+    else{
+        cout<<"Item2 is cheaper.";
+    } 
+    return 0;
+}
+..........................................................................................................................................
+
+//Q.42 if height1 is not equal to height2, print "Their heights are different"; otherwise, print "They have the same height."
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int height1;
+    int height2;
+    cout<<"enter the value of height1:\n";
+    cin>>height1;
+    cout<<"enter the value of height2\n";
+    cin>>height2;
+    if(height1!=height2)
+    {
+        cout<<"Their heights are different\n";
+    }
+    else{
+        cout<<"They have the same height.";
+    } 
+    return 0;
+}
+..........................................................................................................................................
+
+//Q.43 If age1 is greater than age2, print "Person1 is older"; otherwise, print "Person2 is older."
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int age1;
+    int age2;
+    cout<<"enter the value of age1:\n";
+    cin>>age1;
+    cout<<"enter the value of age2\n";
+    cin>>age2;
+    if(age1>age2)
+    {
+        cout<<"Person1 is older\n";
+    }
+    else{
+        cout<<"Person2 is older.";
+    } 
+    return 0;
+}
+..........................................................................................................................................
+
+//Q.44 If value1 is smaller than value2, print "Value1 is less"; otherwise, print "Value2 is less."
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int Value1;
+    int Value2;
+    cout<<"enter the value of Value1:\n";
+    cin>>Value1;
+    cout<<"enter the value of Value2\n";
+    cin>>Value2;
+    if(Value1<Value2)
+    {
+        cout<<"Value1 is less\n";
+    }
+    else{
+        cout<<"Value2 is less.";
+    } 
+    return 0;
+}
+..........................................................................................................................................
+
+//Q.45 If score1 is not equal to score2, print "The scores are different"; otherwise, print "The scores are the same."
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int score1;
+    int score2;
+    cout<<"enter the value of score1:\n";
+    cin>>score1;
+    cout<<"enter the value of score2\n";
+    cin>>score2;
+    if(score1!=score2)
+    {
+        cout<<"The scores are different\n";
+    }
+    else{
+        cout<<"The scores are the same.";
+    } 
+    return 0;
+}
+..........................................................................................................................................
+
+//Q.46 If time1 is greater than time2, print "Event1 will take longer"; otherwise, print "Event2 will take longer."
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int time1;
+    int time2;
+    cout<<"enter the value of time1:\n";
+    cin>>time1;
+    cout<<"enter the value of time2\n";
+    cin>>time2;
+    if(time1>time2)
+    {
+        cout<<"Event1 will take longer\n";
+    }
+    else{
+        cout<<"Event2 will take longer.";
+    } 
+    return 0;
+}
+..........................................................................................................................................
+
+//Q.47 If population1 is smaller than population2, print "City1 is less populated"; otherwise, print "City2 is less populated."
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int population1;
+    int population2;
+    cout<<"enter the value of population1:\n";
+    cin>>population1;
+    cout<<"enter the value of population2\n";
+    cin>>population2;
+    if(population1<population2)
+    {
+        cout<<"City1 is less populated\n";
+    }
+    else{
+        cout<<"City2 is less populated.";
+    } 
+    return 0;
+}
+.........................................................................................................................................
+
+//Q.48 if cost1 is greater than cost2, print "Product1 is more expensive"; otherwise, print "Product2 is more expensive."
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int cost1;
+    int cost2;
+    cout<<"enter the value of cost1:\n";
+    cin>>cost1;
+    cout<<"enter the value of cost2\n";
+    cin>>cost2;
+    if(cost1>cost2)
+    {
+        cout<<"Product1 is more expensive\n";
+    }
+    else{
+        cout<<"Product2 is more expensive.";
+    } 
+    return 0;
+}
+..........................................................................................................................................
+
+//Q.49 If weight1 is not equal to weight2, print "The weights are different"; otherwise, print "The weights are the same."
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int weight1;
+    int weight2;
+    cout<<"enter the value of weight1:\n";
+    cin>>weight1;
+    cout<<"enter the value of weight2\n";
+    cin>>weight2;
+    if(weight1!=weight2)
+    {
+        cout<<"The weights are different\n";
+    }
+    else{
+        cout<<"he weights are the same.";
+    } 
+    return 0;
+}
+..........................................................................................................................................
+
+//Q.50 If result1 is greater than result2, print "Player1 performed better"; otherwise, print "Player2 performed better."
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int result1;
+    int result2;
+    cout<<"enter the value of result1:\n";
+    cin>>result1;
+    cout<<"enter the value of result2\n";
+    cin>>result2;
+    if(result1>result2)
+    {
+        cout<<"Player1 performed better\n";
+    }
+    else{
+        cout<<"Player2 performed better.";
+    } 
+    return 0;
+}
+..........................................................................................................................................
+
+
